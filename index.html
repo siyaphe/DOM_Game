@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <div class="container">
+            <div class="cards" id="poke1" onclick="askQuestion1(questionBox.q1.q,questionBox.q1.a)"></div>
+            <div class="cards" id="poke2" onclick="askQuestion2(questionBox.q2.q,questionBox.q2.a)"></div>
+            <div class="cards" id="poke3" onclick="askQuestion(questionBox.q3.q,questionBox.q3.a)"></div>
+            <div class="cards" id="poke4" onclick="askQuestion(questionBox.q4.q,questionBox.q4.a)"></div>
+            <div class="cards" id="poke5" onclick="askQuestion(questionBox.q5.q,questionBox.q5.a)"></div>
+        </div>
+
+
+        <h1 class="playerScore"> Player Score :  <span class="points"></span>      </h1>
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>

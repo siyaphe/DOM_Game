@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    border:solid purple;
+    margin:1em;
+    height:120px;
+    width:90px;
+}
+.cards:hover{
+    border:solid purple;
+    margin:1em;
+    height:120px;
+    width:90px;
+}
+
+.poke{
+    width:90px;
+    height:90px;
+}
